@@ -1,30 +1,24 @@
 """
-This script allows you to test the sentiment analysis API with your own data. 
+This CLI tool allows you to test the sentiment analysis API with your own data. 
 It takes in a movie review and returns the predicted sentiment (positive or negative).
 """
 import requests
+import click
 
-def main():
-    
-    review = input("Enter your movie review: ")
+@click.command()
+@click.option('--text', help='text to be classified')
 
-    url = "https://7iuspchcp9.execute-api.us-east-1.amazonaws.com/stage_1/dev"
-
-    payload = f"\"{review}\""
+def predict(text): # pylint: disable=no-value-for-parameter
+    url = "https://7iuspchcp9.execute-api.us-east-1.amazonaws.com/stage_1/dev" # AWS endpoint
+    payload = f"\"{text}\""
     headers = {
     'Content-Type': 'text/plain'
     }
-
     response = requests.request("POST", url, headers=headers, data=payload)
-
-    #print(response.text) #Uncomment if you want to see numerical value of prediction. 1 is positive, 0 is negative. 
-
     if "1" in response.text:
         print("Sentiment prediction: positive")
     else:
-        print("Sentiment prediction: negative")
-    
-    return response.text
+        print("Sentiment prediction: negative")   
+    return response.text # returns numerical value of prediction. 0 is negative, 1 is positive.
 
-if __name__ == "__main__":
-    main()
+predict()
