@@ -1,4 +1,8 @@
+![Amazon SageMaker](https://github.com/sakuray10/MLOps_FinalProject/raw/main/Amazon%20SageMaker.jpg)
+
 ![AWS Lambda](https://github.com/sakuray10/MLOps_FinalProject/raw/main/AWS%20Lambda.jpg)
+
+![Amazon API Gateway](https://github.com/sakuray10/MLOps_FinalProject/raw/main/Amazon%20API%20Gateway.jpg)
 
 # Sentiment Analysis with AWS SageMaker, Lambda, and API Gateway
 
