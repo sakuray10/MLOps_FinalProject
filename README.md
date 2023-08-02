@@ -1,5 +1,5 @@
 ![Amazon SageMaker](https://github.com/sakuray10/MLOps_FinalProject/raw/main/Amazon%20SageMaker.jpg)         ![AWS Lambda](https://github.com/sakuray10/MLOps_FinalProject/raw/main/AWS%20Lambda.jpg)     
-![Amazon API Gateway](https://github.com/sakuray10/MLOps_FinalProject/raw/main/Amazon%20API%20Gateway.jpg)
+                                      ![Amazon API Gateway](https://github.com/sakuray10/MLOps_FinalProject/raw/main/Amazon%20API%20Gateway.jpg)
 
 
 # Sentiment Analysis with AWS SageMaker, Lambda, and API Gateway
@@ -7,7 +7,7 @@
 MLOps Final Project - Amani, Diarra, Sakura
 ### This project aims to perform sentiment analysis on movie reviews using a weighted ensemble model deployed on AWS SageMaker, Lambda, and API Gateway. The dataset used for training and testing is the IMDB Movie Ratings Sentiment Analysis dataset available on Kaggle.
 
-## Key Components:
+## Key Components
 1. Dataset: The IMDB Movie Ratings Sentiment Analysis dataset contains labeled movie reviews, making it suitable for training a sentiment analysis model.
 
 2. AWS SageMaker: SageMaker is utilized for model training and deployment. Multiple machine learning algorithms are employed to create diverse models, which are combined using a weighted ensemble approach for improved performance.
@@ -18,7 +18,7 @@ MLOps Final Project - Amani, Diarra, Sakura
 
 5. API Gateway: API Gateway is employed to create a RESTful API that allows users to make HTTP requests to invoke the Lambda function for sentiment analysis.
 
-## Deployment Steps:
+## Deployment Steps
 1. Data Preprocessing: The IMDb dataset is preprocessed to prepare it for model training.
 
 2. Model Training: Multiple machine learning algorithms are used to train individual models on the preprocessed data.
@@ -31,10 +31,10 @@ MLOps Final Project - Amani, Diarra, Sakura
 
 6. API Gateway Configuration: API Gateway is configured to create a REST API endpoint that triggers the Lambda function.
 
-## Usage:
+## Usage
 Users can access the sentiment analysis functionality by making HTTP requests to the API Gateway endpoint with their movie reviews as input. The API will return the sentiment analysis results as a response.
 
-## Benefits:
+## Benefits
 - Accurate Sentiment Analysis: The weighted ensemble model provides improved sentiment analysis accuracy by leveraging the strengths of individual models.
 
 - Scalability: The serverless architecture using Lambda and API Gateway allows for easy scalability and cost-effectiveness.
