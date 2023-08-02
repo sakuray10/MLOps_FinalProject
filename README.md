@@ -29,7 +29,17 @@ MLOps Final Project - Amani, Diarra, Sakura
 
 6. API Gateway Configuration: API Gateway is configured to create a REST API endpoint that triggers the Lambda function.
 
+## Usage:
+Users can access the sentiment analysis functionality by making HTTP requests to the API Gateway endpoint with their movie reviews as input. The API will return the sentiment analysis results as a response.
 
+## Benefits:
+- Accurate Sentiment Analysis: The weighted ensemble model provides improved sentiment analysis accuracy by leveraging the strengths of individual models.
+
+- Scalability: The serverless architecture using Lambda and API Gateway allows for easy scalability and cost-effectiveness.
+
+- Real-time Inference: The deployed model supports real-time inference, making it suitable for interactive applications.
+
+## This project demonstrates how to implement a sentiment analysis solution using a weighted ensemble model on AWS SageMaker, Lambda, and API Gateway, providing a practical and efficient approach for analyzing movie reviews.
 
 
 
