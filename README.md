@@ -1,4 +1,4 @@
-![image] & ![image] (https://github.com/sakuray10/MLOps_FinalProject/assets/87715968/d6121ded-8f96-40fd-89bc-88c4dd2f6485)
+![image] (https://github.com/sakuray10/MLOps_FinalProject/assets/87715968/d6121ded-8f96-40fd-89bc-88c4dd2f6485)
 (https://github.com/sakuray10/MLOps_FinalProject/assets/87715968/aa5593da-6858-484c-8ff1-37b90351fcc4)
 # Developing a Product Recommendation Engine with AWS SageMaker 
 
