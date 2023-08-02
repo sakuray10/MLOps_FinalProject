@@ -1,5 +1,5 @@
-![image] 
-(https://github.com/sakuray10/MLOps_FinalProject/assets/87715968/aa5593da-6858-484c-8ff1-37b90351fcc4)
+![AWS Lambda](https://github.com/sakuray10/MLOps_FinalProject/raw/main/AWS%20Lambda.jpg)
+
 # Sentiment Analysis with AWS SageMaker, Lambda, and API Gateway
 
 MLOps Final Project - Amani, Diarra, Sakura
