@@ -23,6 +23,8 @@ def main():
         print("Sentiment prediction: positive")
     else:
         print("Sentiment prediction: negative")
+    
+    return response.text
 
 if __name__ == "__main__":
     main()

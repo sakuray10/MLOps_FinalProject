@@ -14,5 +14,5 @@ jobs:
     - name: Install dependencies
       run: make install
 
-    - name: run
-      run: make run
+    - name: test
+      run: make test
