@@ -21,4 +21,5 @@ def predict(text): # pylint: disable=no-value-for-parameter
         print("Sentiment prediction: negative")   
     return response.text # returns numerical value of prediction. 0 is negative, 1 is positive.
 
-predict() # pylint: disable=no-value-for-parameter
+if __name__ == "__main__":
+    predict() # pylint: disable=no-value-for-parameter
