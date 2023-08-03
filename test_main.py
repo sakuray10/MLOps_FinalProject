@@ -3,6 +3,7 @@ import click
 from click.testing import CliRunner
 from main import predict
 
+# test function for github actions
 def test():
     runner = CliRunner()
     text = "This is a good review"
