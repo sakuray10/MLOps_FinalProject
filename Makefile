@@ -1,9 +1,9 @@
 install:
-    pip install --upgrade pip
+	pip install --upgrade pip
 	pip install -r requirements.txt  
 lint:
-    pylint --disable=R,C main.py
+	pylint --disable=R,C main.py
 test:
-    python -m pytest -vv --cov=main test_main.py
+	python -m pytest -vv --cov=main test_main.py
 run:
-    python main.py
+	python main.py
