@@ -4,6 +4,6 @@ install:
 lint:
 	pylint --disable=R,C main.py
 test:
-	python -m pytest -v --cov=main test_main.py
+	python -m pytest --cov=main test_main.py
 run:
 	python main.py
