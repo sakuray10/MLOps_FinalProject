@@ -14,11 +14,11 @@ def predict(text): # pylint: disable=no-value-for-parameter
     headers = {
     'Content-Type': 'text/plain'
     }
-    response = requests.request("POST", url, headers=headers, data=payload)
+    response = requests.request("POST", url, headers=headers, data=payload, timeout=10)
     if "1" in response.text:
         print("Sentiment prediction: positive")
     else:
         print("Sentiment prediction: negative")   
     return response.text # returns numerical value of prediction. 0 is negative, 1 is positive.
 
-predict()
+predict() # pylint: disable=no-value-for-parameter
